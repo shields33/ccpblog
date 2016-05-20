@@ -1,3 +1,3 @@
 # bootstrapme
-Bootstrap and underscores theme starter with basics for slider
+Startbootstrap starter with basics for slider
 Base theme.
