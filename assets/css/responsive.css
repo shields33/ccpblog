@@ -1,0 +1,113 @@
+img {
+    max-width:100%;
+}
+
+
+
+/*
+	XL Destop view
+*/
+@media (min-width:1200px) {
+
+}
+
+/*
+	Mobile, table, MD desktop view
+*/
+@media (max-width:1199px) {
+
+}
+
+/*
+	MD Desktop view
+*/
+@media (min-width:992px) and (max-width:1199px) {
+
+
+}
+
+
+
+/*
+	MD desktop XL Desktop view
+*/
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+}
+
+/*
+
+Tablet nav
+
+*/
+@media (max-width: 991px) {
+
+}
+
+/*
+	Tablet, mobile, MD desktop, XL desktop view
+*/
+@media screen and (min-width: 768px) {
+
+    header .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+/*
+	Mobile
+*/
+@media (max-width: 767px) {
+    header .intro-text .name {
+        font-size: 2em;
+    }
+    header .intro-text .skills {
+        font-size: 1.75em;
+    }
+    section {
+        padding: 75px 0;
+    }
+
+    section.first {
+        padding-top: 75px;
+    }
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+
+}
